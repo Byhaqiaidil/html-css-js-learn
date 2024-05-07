@@ -1,0 +1,5 @@
+- penggunaan javascript pada metode document object manuplation (DOM) di navbar, project dan contact.
+
+- pada navbar digunakan navbar responsive menggunakan JS
+
+- pada project digunakan image slider menggunakan JS 

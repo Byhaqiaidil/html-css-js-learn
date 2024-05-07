@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>byProject</title>
+</head>
+<body>
+    <!-- header navbar -->
+    <header>
+            <nav class="navbar">
+                <h1 class="logo">ByPROJECT</h1>
+            <ul id="navRes" class="active"> 
+                <li>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#project">PROJECT</a>
+            <a href="#contact">CONTACT</a>
+            </li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <section class="jumbotron" id="home">
+            <h1>ByPROJECT</h1>
+            <h1>Welcome to My Website</h1>
+            <p>solusi terbaik dalam pembangunan aplikasi dan website ada pada kami. memeberikan kualitas terbaik kepada anda dan terjamin!</p>
+        </section>
+    </header>
+
+    <!-- main contect -->
+    <main>            
+        <div class="content" id="about">
+            <!-- about -->
+        <article class="about">
+            <h1>TENTANG KAMI</h1>
+            <img src='./assets/coding.jpg' alt=""width='40%'>
+            <p>ByPROJECT merupakan sebuah platform pembuatan aplikasi atau website berbasis coding yang sudah terjamin kualitasnya. kami memberikan fitur fitur yang lengkap dalam pembuatan aplikasi, maintanance dan manajemen terbaik kami sediakan untuk customer serta jaminan keamanan terhadap kejahatan cyber. kami menggunakan software terbaru dan bahasa pemograman yang mudah dipahami. tunggu apa lagi, mari order sekarang!</p>
+        </article>
+
+        <!-- project -->
+        <article class="project" id="project">
+            <h1>PROJECT KAMI</h1>
+            <p>Berikut merupakan project yang sudah kami bangun dan tersedia untuk anda. </p>
+        <div class="project-slide">
+            <div class="card">
+                <img src="./assets/frontend web.jpg" alt="project 1" width="80%">
+                <h1>FRONTEND WEB DEVELOPER</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nobis ad exercitationem ipsum obcaecati deleniti.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/backend web.jpg" alt="project 1" width="80%">
+                <h1>BACKEND WEB DEVELOPER</h1>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit commodi dolorum sunt ipsum minima omnis.</P>
+            </div>
+            <div class="card">
+                <img src="./assets/UI UX DESIGN.jpg" alt="project 1" width="80%">
+                <h1>UI/UX DESIGN</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet corporis autem eum, voluptates natus et.</p>
+            </div>
+            <a class="prev" onclick="nextSlide(-1)">&#10094</a>
+            <a class="next" onclick="nextSlide(1)">&#10095</a>
+        </div>
+        </article>
+
+        <!-- contact -->
+        <article class="contact" id="contact">
+            <h1>KONTAK KAMI</h1>
+            <p>Kirimkan email serta whatsapp jika tertarik dengan pelayanan kami</p>
+            <div class="row">
+           <form action="">
+            <div class="input-control">NAMA
+            <input type="text" name="" id="" placeholder="MASUKKAN NAMA"></div>
+            <div class="input-control">EMAIL
+            <input type="text" name="" id="" placeholder="MASUKKAN EMAIL"></div>
+            <div class="input-control">WHATSAPP
+            <input type="text" name="" id="" placeholder="MASUKKAN NO WHATSAPP"></div>
+            <button type="submit" onclick="succes()">KIRIM</button>
+           </form>
+           </div>
+        </article>
+        </div>
+
+        <!-- aside contect -->
+        <aside>
+        <article class="profil">
+        <h1>PROFIL KAMI</h1>
+        <img src="/assets/profil.jpg" alt="profil" width="20%">
+        <table class="table">
+            <tr>
+                <th>Nama</th>
+                <td>: muhammad aidil</td>
+            </tr>
+            <tr>
+                <th>Usia</th>
+                <td>: 20th</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>: 5 juni 2005</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>: @muhammadaidil36@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Sosial Media</th>
+                <td> :@aidilbyhaqi._</td>
+            </tr>
+        </table>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque excepturi aliquam ut sit repudiandae dolorum cupiditate error odio hic officiis!</p>
+        </article>
+        </aside>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+<p>Created by AidilByhaqi</p></div>
+    </footer>
+        <script src="main.js"></script>
+</body>
+</html>
